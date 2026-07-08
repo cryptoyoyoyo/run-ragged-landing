@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Run Ragged — Run Yourself Ragged</title>
+<meta name="description" content="A training app for runners. Personalised plans built on VDOT science, automatic tracking, and a parkrun barcode built right in. Coming soon to iOS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #1a2d22;
+    color: #f5f2ec;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 24px 40px;
+  }
+  .wordmark {
+    max-width: 90%;
+    width: 480px;
+    height: auto;
+    margin-bottom: 28px;
+  }
+  .tagline {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c14e24;
+    margin-bottom: 20px;
+  }
+  .description {
+    max-width: 480px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgba(245,242,236,0.85);
+    margin-bottom: 40px;
+  }
+  .signup-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px;
+    padding: 28px 32px;
+    max-width: 420px;
+    width: 100%;
+  }
+  .signup-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .signup-sub {
+    font-size: 13px;
+    color: rgba(245,242,236,0.7);
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: #c14e24;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 14px 28px;
+    border-radius: 10px;
+    transition: opacity 0.2s;
+  }
+  .cta-btn:hover {
+    opacity: 0.9;
+  }
+  .social-row {
+    display: flex;
+    gap: 20px;
+    margin-top: 44px;
+  }
+  .social-link {
+    color: rgba(245,242,236,0.7);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 4px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .social-link:hover {
+    color: #f5f2ec;
+    border-bottom-color: #c14e24;
+  }
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 12px;
+    color: rgba(245,242,236,0.4);
+  }
+  footer a {
+    color: rgba(245,242,236,0.6);
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #f5f2ec;
+  }
+  .footer-links {
+    margin-bottom: 8px;
+  }
+  .footer-links a {
+    margin: 0 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img src="wordmark.png" alt="Run Ragged" class="wordmark">
+  <p class="tagline">Coming soon to iOS</p>
+  <p class="description">
+    A training app for runners. Personalised plans built on VDOT science, automatic tracking from Apple Health, and a parkrun barcode built right in.
+  </p>
+
+  <div class="signup-card">
+    <p class="signup-title">Want to know when it's live?</p>
+    <p class="signup-sub">Drop us a line and we'll let you know the moment Run Ragged launches on the App Store.</p>
+    <a href="mailto:hello@runragged.app?subject=Notify%20me%20when%20Run%20Ragged%20launches" class="cta-btn">Notify me →</a>
+  </div>
+
+  <div class="social-row">
+    <a href="https://instagram.com/runragged" class="social-link" target="_blank">Instagram</a>
+    <a href="https://tiktok.com/@runragged" class="social-link" target="_blank">TikTok</a>
+    <a href="https://facebook.com/runragged" class="social-link" target="_blank">Facebook</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://privacy.runragged.app">Privacy Policy</a>
+    ·
+    <a href="https://terms.runragged.app">Terms of Service</a>
+  </div>
+  Run Ragged Ltd · Registered in England and Wales
+</footer>
+
+</body>
+</html>
